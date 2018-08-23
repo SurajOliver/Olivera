@@ -8,7 +8,6 @@ import { ProjectService } from '../project.service';
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
-
 export class ProjectsComponent implements OnInit {
 
   projects: Project[];
